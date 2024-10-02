@@ -10,6 +10,7 @@ const server = express();
 server.use(express.json());
 server.use(cors({
     origin: 'http://frontend-mocha-one.vercel.app',
+    methods: ["GET","POST","PUT","DELETE"],
     credentials: true,
 }));
 
