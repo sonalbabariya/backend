@@ -9,7 +9,7 @@ const server = express();
 
 server.use(express.json());
 server.use(cors({
-    origin: 'http://frontend-omega-puce.vercel.app',
+    origin: 'https://frontend-omega-puce.vercel.app',
     methods: ["GET","POST","PUT","DELETE"],
     credentials: true,
 }));
